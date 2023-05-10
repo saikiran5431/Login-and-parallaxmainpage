@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Website Layout | Sai Kiran</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebase/init.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+   
+<body id="app">
+  
+    <section class="main_box">
+      <input type="checkbox" id="check">
+      <div class="btn_one">
+        <label for="check">
+          <i class="fas fa-bars"></i>
+        </label>
+      </div>
+      <div class="sidebar_menu">
+        <div class="logo">
+          <a href="#">SaiKiran</a>
+            </div>
+          <div class="btn_two">
+            <label for="check">
+              <i class="fas fa-times"></i>
+            </label>
+          </div>
+        <div class="menu">
+          <ul>
+            <li><i class="fas fa-qrcode"></i>
+              <a href="#">Dashboard</a>
+            </li>
+            <li>
+              <i class="fas fa-link"></i>
+              <a href="#">Shortcuts</a>
+            </li>
+            <li>
+              <i class="fas fa-stream"></i>
+              <a href="#">Overview</a>
+            </li>
+            <li>
+              <i class="fas fa-calendar-week"></i>
+              <a href="#">Events</a>
+            </li>
+            <li>
+              <i class="fas fa-question-circle"></i>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <i class="fas fa-sliders-h"></i>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <i class="fas fa-phone-volume"></i>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+            <i class="far fa-comments"></i>
+              <a href="#">Feedback</a>
+            </li>
+            <li>
+              <i class="fas fa-sign-out-alt"></i>
+              <button class="logout" onclick="logout()">Logout</button>
+            </li>
+          </ul>
+        </div>
+        <div class="social_media">
+          <ul>
+            <a href="https://www.facebook.com/profile.php?id=100057871816562"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/sai-kiran-b471951ba"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/saikiran5431/"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/saikiran5431"><i class="fab fa-github"></i></a>
+          </ul>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="paralllex/hill1.png"id="hill1">
+        <img src="paralllex/hill2.png"id="hill2">
+        
+        <img src="paralllex/hill3.png"id="hill3">
+        <img src="paralllex/hill4.png" id="hill4">
+        
+        <img src="paralllex/hill5.png" id="hill5">
+        <h2 id="text">Welcome to my <br><span style="color: aquamarine;">Website</span></h2>
+        <img src="paralllex/tree.png" id="tree">
+        
+        <img src="paralllex/leaf.png" id="leaf">
+        
+        <img src="paralllex/plant.png" id="plant">
+      </div>
+    </section>
+
+
+  <section class="about">
+    <div class="about_container">
+        <div class="card">
+          <div class="top">
+              <span>Sai Kiran</span>
+              <!-- <i class="bx bx-dots-vertical-rounded"></i> -->
+              
+          </div>
+          <div class="middle">
+              <div class="left">
+                  <img src="About/hulk.jpeg" alt="">
+              </div>
+              <div class="right">
+                  <label for="">Skills :</label>
+                  <div>
+                      <ul>
+                          <li>Web Designer</li>
+                          <li>Programmer</li>
+                          <li>Graphic Designer</li>
+                      </ul>
+                  </div>
+                  <div class="social-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100057871816562"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/sai-kiran-b471951ba"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/saikiran5431/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/saikiran5431"><i class="fab fa-github"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="bottom">
+              <input type="submit" class="btn" value="Download Resume">
+          </div>
+      </div>
+    </div>  
+  </section>
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+  <script src="firebase.js"></script>
+  <script src="script1.js"></script>
+</body>
+  
+
+</html>
